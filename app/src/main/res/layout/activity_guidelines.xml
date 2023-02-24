@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="35dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="94dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="53dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Symptoms"
+                android:textColor="@color/accent"
+                android:textSize="24dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.556"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:orientation="horizontal">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="95dp"
+                android:layout_height="100dp"
+                app:lottie_fileName="cough.json"
+                android:layout_marginStart="16dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                android:layout_marginTop="6dp"/>
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="95dp"
+                android:layout_height="100dp"
+                app:lottie_fileName="fever.json"
+                android:layout_marginStart="0dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"/>
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="95dp"
+                android:layout_height="100dp"
+                app:lottie_fileName="breathing.json"
+                android:layout_marginStart="0dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                android:layout_marginTop="6dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dry Cough"
+                android:textColor="@color/accent"
+                android:fontFamily="@font/poppins_medium"
+                android:layout_marginTop="8dp"
+                android:textSize="12dp"
+                android:layout_marginStart="32dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fever"
+                android:textColor="@color/accent"
+                android:fontFamily="@font/poppins_medium"
+                android:layout_marginTop="8dp"
+                android:textSize="12dp"
+                android:layout_marginStart="52dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="38dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Shortness of\n breathe"
+                android:textAlignment="center"
+                android:textColor="@color/accent"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:orientation="horizontal">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="95dp"
+                android:layout_height="100dp"
+                app:lottie_fileName="headache.json"
+                android:layout_marginStart="54dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                android:layout_marginTop="6dp"/>
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="95dp"
+                android:layout_height="100dp"
+                app:lottie_fileName="fatigue.json"
+                android:layout_marginStart="20dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                android:layout_marginTop="6dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Headache"
+                android:textColor="@color/accent"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="12dp"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fatigue"
+                android:textColor="@color/accent"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="12dp"
+                android:layout_marginStart="62dp"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="54dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="53dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Prevention"
+            android:textColor="@color/accent"
+            android:textSize="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.556"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="118dp"
+            android:orientation="horizontal">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottieAnimationView6"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginBottom="330dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/lottieAnimationView5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/date"
+                app:layout_constraintVertical_bias="0.315"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="handwashing.json"
+                app:lottie_loop="true" />
+
+            <com.airbnb.lottie.LottieAnimationView
+
+                android:id="@+id/lottieAnimationView5"
+                android:layout_width="90dp"
+                android:layout_height="92dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginBottom="343dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/lottieAnimationView4"
+                app:layout_constraintStart_toEndOf="@+id/lottieAnimationView6"
+                app:layout_constraintTop_toBottomOf="@+id/date"
+                app:layout_constraintVertical_bias="0.0"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="socialdistancing.json"
+                app:lottie_loop="true" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottieAnimationView4"
+                android:layout_width="90dp"
+                android:layout_height="92dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="25dp"
+
+                android:layout_marginBottom="343dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/lottieAnimationView5"
+                app:layout_constraintTop_toBottomOf="@+id/date"
+                app:layout_constraintVertical_bias="0.0"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="wearmask.json"
+                app:lottie_loop="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="2dp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Watch your\n hands regularly"
+                android:textAlignment="center"
+                android:textColor="@color/accent"
+                android:textSize="12dp"
+                app:layout_constraintBottom_toTopOf="@+id/lottieAnimationView7"
+                app:layout_constraintEnd_toStartOf="@+id/textView12"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView6" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="2dp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Practice social\ndistancing"
+                android:textAlignment="center"
+                android:textColor="@color/accent"
+                android:textSize="12dp"
+                app:layout_constraintBottom_toTopOf="@+id/lottieAnimationView8"
+                app:layout_constraintEnd_toStartOf="@+id/textView14"
+                app:layout_constraintStart_toEndOf="@+id/textView13"
+                app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView5" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="2dp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Always wear\n face mask"
+                android:textAlignment="center"
+                android:textColor="@color/accent"
+                android:textSize="12dp"
+                app:layout_constraintBottom_toTopOf="@+id/lottieAnimationView8"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textView12"
+                app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView4" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="117dp"
+            android:orientation="horizontal">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottieAnimationView7"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginStart="54dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/lottieAnimationView8"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView4"
+                app:layout_constraintVertical_bias="0.242"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="sanitize.json"
+                app:lottie_loop="true" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottieAnimationView8"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="54dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/lottieAnimationView7"
+                app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView4"
+                app:layout_constraintVertical_bias="0.239"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="stayhome.json"
+                app:lottie_loop="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginStart="58dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="128dp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Disinfect and\nsanitize"
+                android:textAlignment="center"
+                android:textColor="@color/accent"
+                android:textSize="12dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView7"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:layout_width="81dp"
+                android:layout_height="15dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="63dp"
+                android:layout_marginBottom="144dp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Stay at home"
+                android:textColor="@color/accent"
+                android:textSize="12dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/textView15"
+                app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView8"
+                app:layout_constraintVertical_bias="0.0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

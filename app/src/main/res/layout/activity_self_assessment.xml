@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/secondary"
+    android:padding="24dp"
+    tools:context=".SelfAssessment">
+
+    <TextView
+        android:id="@+id/total_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Total Questions"
+        android:textColor="@color/accent"
+        android:textSize="16dp" />
+
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/choices_layout"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="35dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Sample Question"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/choices_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/submit_btn"
+        android:layout_marginBottom="105dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/yesButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/accent"
+            android:clickable="true"
+            android:fontFamily="@font/poppins_semibold"
+            android:foreground="?attr/selectableItemBackground"
+            android:text="Yes"
+            android:textAllCaps="false"
+            android:textColor="@color/secondary" />
+
+        <Button
+            android:id="@+id/noButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/accent"
+            android:clickable="true"
+            android:fontFamily="@font/poppins_semibold"
+            android:foreground="?attr/selectableItemBackground"
+            android:text="No"
+            android:textAllCaps="false"
+            android:textColor="@color/secondary" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/custom_button4"
+        android:fontFamily="@font/poppins_semibold"
+        android:foreground="?attr/selectableItemBackground"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textColor="@color/secondary"
+        android:textSize="14dp" />
+
+
+</RelativeLayout>
